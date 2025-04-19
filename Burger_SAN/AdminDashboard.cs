@@ -6,6 +6,7 @@ using System.Windows.Forms;
 namespace Burger_SAN
 {
     public partial class AdminDashboard : Form
+
     {
         private int userId;
         DBConnection db = new DBConnection();
@@ -297,18 +298,9 @@ namespace Burger_SAN
         }
 
         private void btnShowReport_Click(object sender, EventArgs e)
-        {
-            if (dgvReservations.DataSource is DataTable reportData && reportData.Rows.Count > 0)
-            {
-                ReservationReportForm reportForm = new ReservationReportForm(reportData);
-                reportForm.ShowDialog();
-            }
-            else
-            {
-                MessageBox.Show("No data available to generate the report.");
-            }
+        {  
         }
 
-      
+
     }
 }

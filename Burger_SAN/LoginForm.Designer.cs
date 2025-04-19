@@ -37,6 +37,7 @@
             this.btnRegister = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
+            this.lblForgotPassword = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblUsername
@@ -81,7 +82,7 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(115, 223);
+            this.btnLogin.Location = new System.Drawing.Point(51, 196);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(112, 32);
             this.btnLogin.TabIndex = 5;
@@ -110,7 +111,7 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(339, 285);
+            this.btnExit.Location = new System.Drawing.Point(213, 196);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(98, 37);
             this.btnExit.TabIndex = 8;
@@ -118,11 +119,22 @@
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // lblForgotPassword
+            // 
+            this.lblForgotPassword.AutoSize = true;
+            this.lblForgotPassword.Location = new System.Drawing.Point(33, 252);
+            this.lblForgotPassword.Name = "lblForgotPassword";
+            this.lblForgotPassword.Size = new System.Drawing.Size(116, 16);
+            this.lblForgotPassword.TabIndex = 9;
+            this.lblForgotPassword.Text = "Forgot Password?";
+            this.lblForgotPassword.Click += new System.EventHandler(this.lblForgotPassword_Click);
+            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblForgotPassword);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnRegister);
@@ -133,7 +145,6 @@
             this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.lblUsername);
             this.Name = "LoginForm";
-            this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -150,6 +161,7 @@
         private System.Windows.Forms.Button btnRegister;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Label lblForgotPassword;
     }
 }
 

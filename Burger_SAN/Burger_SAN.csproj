@@ -135,6 +135,12 @@
     <Compile Include="EmployeeDashboard.Designer.cs">
       <DependentUpon>EmployeeDashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="ForgotPasswordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgotPasswordForm.Designer.cs">
+      <DependentUpon>ForgotPasswordForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -148,20 +154,6 @@
     </Compile>
     <Compile Include="RegisterForm.Designer.cs">
       <DependentUpon>RegisterForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ReservationReportForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ReservationReportForm.Designer.cs">
-      <DependentUpon>ReservationReportForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ReservationsDataSet.cs">
-      <DependentUpon>ReservationsDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="ReservationsDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ReservationsDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="UserDashboardForm.cs">
       <SubType>Form</SubType>
@@ -193,6 +185,9 @@
     <EmbeddedResource Include="EmployeeDashboard.resx">
       <DependentUpon>EmployeeDashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPasswordForm.resx">
+      <DependentUpon>ForgotPasswordForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -208,10 +203,6 @@
     <EmbeddedResource Include="RegisterForm.resx">
       <DependentUpon>RegisterForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ReservationReportForm.resx">
-      <DependentUpon>ReservationReportForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ReservationsReport.rdlc" />
     <EmbeddedResource Include="UserDashboardForm.resx">
       <DependentUpon>UserDashboardForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -222,6 +213,7 @@
       <DependentUpon>UserReservationForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\ReservationDataSet.ReservationsTableDataTable.datasource" />
     <None Include="Properties\DataSources\_.ReservationsTableDataTable.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -232,17 +224,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="ReservationsDataSet.xsc">
-      <DependentUpon>ReservationsDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="ReservationsDataSet.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>ReservationsDataSet.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="ReservationsDataSet.xss">
-      <DependentUpon>ReservationsDataSet.xsd</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

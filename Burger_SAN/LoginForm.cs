@@ -93,5 +93,14 @@ namespace Burger_SAN
                 MessageBox.Show("Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void lblForgotPassword_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ForgotPasswordForm forgotPasswordForm = new ForgotPasswordForm();
+            forgotPasswordForm.Show();
+        }
+
+
     }
 }
