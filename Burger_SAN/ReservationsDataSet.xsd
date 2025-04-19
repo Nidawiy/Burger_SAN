@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="_x0020_" targetNamespace="http://tempuri.org/ReservationsDataSet.xsd" xmlns:mstns="http://tempuri.org/ReservationsDataSet.xsd" xmlns="http://tempuri.org/ReservationsDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="_x0020_" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName=" " msprop:Generator_DataSetName="_">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ReservationsTable" msprop:Generator_RowEvHandlerName="ReservationsTableRowChangeEventHandler" msprop:Generator_RowDeletedName="ReservationsTableRowDeleted" msprop:Generator_RowDeletingName="ReservationsTableRowDeleting" msprop:Generator_RowEvArgName="ReservationsTableRowChangeEvent" msprop:Generator_TablePropName="_ReservationsTable" msprop:Generator_RowChangedName="ReservationsTableRowChanged" msprop:Generator_RowChangingName="ReservationsTableRowChanging" msprop:Generator_TableClassName="ReservationsTableDataTable" msprop:Generator_RowClassName="ReservationsTableRow" msprop:Generator_TableVarName="tableReservationsTable" msprop:Generator_UserTableName="ReservationsTable">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ReservationID" msprop:Generator_ColumnPropNameInRow="ReservationID" msprop:Generator_ColumnPropNameInTable="ReservationIDColumn" msprop:Generator_ColumnVarNameInTable="columnReservationID" msprop:Generator_UserColumnName="ReservationID" type="xs:int" minOccurs="0" />
+              <xs:element name="FullName" msprop:Generator_ColumnPropNameInRow="FullName" msprop:Generator_ColumnPropNameInTable="FullNameColumn" msprop:Generator_ColumnVarNameInTable="columnFullName" msprop:Generator_UserColumnName="FullName" type="xs:string" minOccurs="0" />
+              <xs:element name="ReservationDate" msprop:Generator_ColumnPropNameInRow="ReservationDate" msprop:Generator_ColumnPropNameInTable="ReservationDateColumn" msprop:Generator_ColumnVarNameInTable="columnReservationDate" msprop:Generator_UserColumnName="ReservationDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="TimeSlot" msprop:Generator_ColumnPropNameInRow="TimeSlot" msprop:Generator_ColumnPropNameInTable="TimeSlotColumn" msprop:Generator_ColumnVarNameInTable="columnTimeSlot" msprop:Generator_UserColumnName="TimeSlot" type="xs:string" minOccurs="0" />
+              <xs:element name="NumberOfGuests" msprop:Generator_ColumnPropNameInRow="NumberOfGuests" msprop:Generator_ColumnPropNameInTable="NumberOfGuestsColumn" msprop:Generator_ColumnVarNameInTable="columnNumberOfGuests" msprop:Generator_UserColumnName="NumberOfGuests" type="xs:int" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_UserColumnName="Status" type="xs:string" minOccurs="0" />
+              <xs:element name="Notes" msprop:Generator_ColumnPropNameInRow="Notes" msprop:Generator_ColumnPropNameInTable="NotesColumn" msprop:Generator_ColumnVarNameInTable="columnNotes" msprop:Generator_UserColumnName="Notes" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
